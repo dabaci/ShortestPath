@@ -1,0 +1,48 @@
+Tallahassee : Atlanta % 260, Montgomery % 105
+Atlanta : Tallahassee % 260, Montgomery % 140, Columbia % 192, Raleigh % 382, Nashville % 231
+Montgomery : Tallahassee % 105, Atlanta % 140, Nashville % 250, Jackson % 245
+Columbia : Atlanta % 192, Raleigh % 200
+Raleigh : Columbia % 200, Atlanta % 382, Nashville % 496, Richmond % 150
+Nashville : Atlanta % 231, Montgomery % 250, Raleigh % 496, Richmond % 550, Jackson % 365, Little Rock % 311, Jefferson City % 398, Frankfort % 191
+Richmond : Raleigh % 150, Nashville % 550, Frankfort % 476, Charleston % 297, Annapolis % 133
+Charleston : Richmond % 297, Frankfort % 181, Annapolis % 359, Harrisburg % 353, Columbus % 158
+Annapolis : Richmond % 133, Charleston % 359, Harrisburg % 112, Dover % 76
+Dover : Annapolis % 76, Harrisburg % 152, Trenton % 117
+Harrisburg : Annapolis % 112, Dover % 152, Albany % 282, Trenton % 123, Columbus % 380, Charleston % 344
+Trenton : Harrisburg % 123, Dover % 117, Albany % 191
+Albany : Harrisburg % 282, Trenton % 191, Hartford % 109, Boston % 162, Montpelier % 182
+Hartford : Albany % 109, Boston % 95, Providence % 91
+Providence : Hartford % 91, Boston % 54
+Boston : Hartford % 95, Providence % 54, Albany % 162, Montpelier % 166, Concord % 64
+Montpelier : Boston % 166, Albany % 182, Concord % 112
+Concord : Boston % 64, Montpelier % 112, Augusta % 151
+Augusta : Concord % 151
+Columbus : Harrisburg % 380, Charleston % 158, Frankfort % 185, Indianapolis % 167, Lansing % 239
+Lansing : Columbus % 239, Indianapolis % 237
+Frankfort : Nashville % 191, Richmond % 476, Charleston % 181, Columbus % 185, Indianapolis % 152, Springfield % 341, Jefferson City % 407
+Indianapolis : Lansing % 237, Columbus % 167, Frankfort % 152, Springfield % 197
+Jackson : Montgomery % 245, Nashville % 365, Baton Rouge % 157, Little Rock % 261
+Baton Rouge : Jackson % 157, Little Rock % 364, Austin % 393
+Little Rock : Jackson % 261, Nashville % 311, Baton Rouge % 364, Jefferson City % 352, Austin % 454, Oklahoma City % 304
+Jefferson City : Little Rock % 352, Nashville % 398, Frankfort % 407, Springfield % 198, Des Moines % 262, Oklahoma City % 384, Topeka % 197, Lincoln % 328
+Springfield : Indianapolis % 197, Frankfort % 341, Des Moines % 309, Jefferson City % 198, Madison % 247
+Madison : Springfield % 247, Des Moines % 276, Saint Paul % 243
+Des Moines : Madison % 276, Springfield % 309, Saint Paul % 220, Jefferson City % 262, Lincoln % 171, Pierre % 439
+Saint Paul : Madison % 243, Des Moines % 220, Pierre % 412, Bismarck % 394
+Austin : Baton Rouge % 393, Little Rock % 454, Oklahoma City % 346, Santa Fe % 657
+Oklahoma City : Little Rock % 304, Austin % 346, Jefferson City % 384, Topeka % 260, Santa Fe % 478, Denver % 602
+Topeka : Oklahoma City % 260, Jefferson City % 197, Lincoln % 166, Denver % 535
+Lincoln : Topeka % 166, Jefferson City % 328, Des Moines % 171, Pierre % 386, Denver % 420, Cheyenne % 388
+Pierre : Lincoln % 386, Des Moines % 439, Saint Paul % 412, Bismarck % 209, Cheyenne % 463, Helena % 665
+Bismarck : Saint Paul % 394, Pierre % 209, Helena % 562
+Santa Fe : Austin % 657, Oklahoma City % 478, Denver % 349, Phoenix % 458, Salt Lake City % 611
+Denver : Santa Fe % 349, Oklahoma City % 602, Topeka % 535, Lincoln % 420, Cheyenne % 94, Salt Lake City % 478, Phoenix % 775
+Cheyenne : Denver % 94, Lincoln % 388, Pierre % 463, Helena % 655, Boise % 651, Salt Lake City % 396
+Helena : Bismarck % 562, Pierre % 665, Cheyenne % 655, Boise % 450
+Phoenix : Santa Fe % 458, Denver % 775, Salt Lake City % 624, Carson City % 696, Sacramento % 703
+Salt Lake City : Santa Fe % 611, Phoenix % 624, Denver % 478, Cheyenne % 396, Boise % 300, Carson City % 480
+Boise : Salt Lake City % 300, Cheyenne % 651, Helena % 450, Carson City % 422, Salem % 447, Olympia % 500
+Carson City : Phoenix % 696, Salt Lake City % 480, Boise % 422, Sacramento % 153, Salem % 517
+Sacramento : Phoenix % 703, Carson City % 153, Salem % 505
+Salem : Sacramento % 505, Carson City % 517, Boise % 447, Olympia % 154
+Olympia : Salem % 154, Boise % 500
